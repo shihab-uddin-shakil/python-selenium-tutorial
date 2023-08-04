@@ -37,20 +37,30 @@ Now, you can install the Selenium library for Python using pip:
 ````
 pip3 install selenium
 ````
-Verify the setup:
+## Install Pycharm:
+Now, install the Pycharm Code Editor:
+
+````
+snap find pycharm #find pycharm vesion
+snap install pycharm-community --classic
+````
+Then open pycharm and select ``` Do not import settings ```
+
+## Verify the setup:
 To verify that everything is working correctly, you can create a simple Python script and run it. Here's an example:
 
-python
-Copy code
+* Open Pycharm  Click on ``` New Projct ``` give Project Name and select your custom location then click on `` create ``
+* Select On `` file `` then go to `` Settings `` select ``` Python interperator ``` click on Plus sign ``` + ``  Seacrh ``` selenium ``` and install selenium package last of all ok all window .
+* Create Python file  Add below code:
+````                                                                                                                                                           
 from selenium import webdriver
 
 driver = webdriver.Chrome()
 driver.get("https://www.google.com")
+````
 Save this script (e.g., test_selenium.py) and run it using Python:
+```
+python test_selenium.py
+```
 
-bash
-Copy code
-python3 test_selenium.py
 If everything is set up correctly, a new Chrome browser window should open, and it should navigate to the Google homepage.
-
-That's it! You should now have Selenium with Python and ChromeDriver set up on your Ubuntu 22.04 system. You can start automating web interactions using Selenium with this configuration.
