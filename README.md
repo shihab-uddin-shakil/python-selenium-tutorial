@@ -51,7 +51,7 @@ To verify that everything is working correctly, you can create a simple Python s
 
 * Open Pycharm  Click on ``` New Projct ``` give Project Name and select your custom location then click on `` create ``
 * Select On `` file `` then go to `` Settings `` select ``` Python interperator ``` click on Plus sign ``` + ``  Seacrh ``` selenium ``` and install selenium package last of all ok all window .
-* Create Python file  Add below code:
+* Create Python file(test_selenium.py)  Add below code:
 ````                                                                                                                                                           
 from selenium import webdriver
 
