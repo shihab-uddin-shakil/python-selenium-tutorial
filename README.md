@@ -3,7 +3,7 @@
 Python should come pre-installed on Ubuntu 22.04. However, you can ensure it's installed by running:
 
 ````
-sudo apt install python3 python3-pip1
+sudo apt install python3 python3-pip
 sudo apt install python-is-python3
 ````
 
